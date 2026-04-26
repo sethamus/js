@@ -7,15 +7,4 @@
 // Imports
 //-----------------------------------------------------------------------------
 
-// Make sure the named exports exist.
-import {
-	Definition,
-	PatternVisitor,
-	Reference,
-	Referencer,
-	ScopeManager,
-	Scope,
-	Variable,
-	analyze,
-	version,
-} from "eslint-scope";
+import "eslint-scope";
